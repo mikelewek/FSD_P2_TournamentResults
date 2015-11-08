@@ -6,7 +6,7 @@ The Repo. Contains the Following Files
 -------------------------------------
  1. tournament.py - Contains functionality to connect to a PostgreSQL 
  	database and ability<br>to get, store, and delete player matches.<br>
- 2. tournament.sql - SQL table definitions for postgreSql.<br>
+ 2. tournament.sql - SQL tournament table definitions for postgreSql.<br>
  3. tournament_test.py - Test cases for tournament.py. Provided by Udacity.<br>
  4. tournament_test_data.py - Test SQL data queries.<br>
  5. README.md
