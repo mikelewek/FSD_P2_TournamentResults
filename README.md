@@ -23,4 +23,4 @@ How to Run the Application
 	<code>$ python tournament_test.py</code>
 </pre>
 
-<p>tournament_test.py will output all of the tests have ran and "Success!  All tests pass!" in the CLI.</p>
+<p>tournament_test.py will output all of the tests have ran successfully and display "Success!  All tests pass!" in the CLI.</p>
