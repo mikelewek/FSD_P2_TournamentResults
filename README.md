@@ -1,6 +1,6 @@
 Tournament Results - FSD Project 2
 ------------------------------------
-<p>This application stores game data for a Swiss-Pairing scoring tournament.</p>
+<p>This application stores game data, ranks and pairs players for a Swiss-Pairing scoring tournament.</p>
 
 The Repo. Contains the Following Files
 -------------------------------------
