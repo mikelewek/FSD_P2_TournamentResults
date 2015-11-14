@@ -23,7 +23,8 @@ CREATE TABLE matches(
 
 --view for winners
 CREATE VIEW winners AS
-SELECT players.id, players.name, count(matches.winner) AS wins
+SELECT players.id, players.name,
+    count(matches.winner) AS wins
    	FROM players 
    	LEFT JOIN matches
     ON players.id = matches.winner
@@ -31,7 +32,9 @@ SELECT players.id, players.name, count(matches.winner) AS wins
 
 --view for losers
 CREATE VIEW losers AS
-SELECT players.id, players.name, count(matches.loser) AS lost
+SELECT players.id,
+    players.name,
+    count(matches.loser) AS lost
    	FROM players 
    	LEFT JOIN matches
     ON players.id = matches.loser
@@ -39,9 +42,10 @@ SELECT players.id, players.name, count(matches.loser) AS lost
 
 --view for standings
 CREATE VIEW standings AS
-    SELECT winners.id, winners.name, winners.wins, winners.wins + losers.lost AS total
+    SELECT winners.id,
+        winners.name,
+        winners.wins,
+        winners.wins + losers.lost AS total
 	FROM winners, losers
 	WHERE winners.id = losers.id
 	ORDER BY winners.wins DESC;
-
-\q
