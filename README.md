@@ -15,12 +15,10 @@ The Repo. Contains the Following Files
 How to Run the Application
 -------------------------
 <p>Python 2.7, PostgreSQL, and psql CLI must be installed and configured.</p>
-<p>In the terminal, clone the repo., then navigate to the directory where the files are located. Running the tournament_test.py will run through test cases to verify the code is correctly implemented.</p>
+<p>In the terminal, clone the repo., then navigate to the directory where the files are located. Running the tournament_test.py will run through test cases to verify the code is implemented correctly and display "Success!  All tests pass!" in the CLI.</p>
 
 <pre>
 	<code>$ git clone https://github.com/mikelewek/FSD_P2_TournamentResults.git</code>
 	<code>$ cd FSD_P2_TournamentResults</code>
 	<code>$ python tournament_test.py</code>
 </pre>
-
-<p>Running tournament_test.py will output all of the tests have ran successfully and display "Success!  All tests pass!" in the CLI.</p>
