@@ -107,12 +107,7 @@ def swissPairings():
         id2: the second player's unique id
         name2: the second player's name
     """
-    conn = connect()
-    c = conn.cursor()
-    c.execute("""SELECT id, name, cast(wins as integer), cast(total as integer)
-              FROM standings""")
-    result = c.fetchall()
-    c.close()
+    result = playerStandings()
 
 # run through every two results and append to list
     pairings = []
