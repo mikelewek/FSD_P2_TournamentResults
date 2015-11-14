@@ -9,7 +9,8 @@ The Repo. Contains the Following Files
  2. tournament.sql - SQL tournament table definitions for postgreSql.<br>
  3. tournament_test.py - Test cases for tournament.py. Provided by Udacity.<br>
  4. tournament_test_data.py - Test SQL data queries.<br>
- 5. README.md
+ 5. tournament.sql - Test suite data for debugging purposes.<br>
+ 6. README.md
 
 How to Run the Application
 -------------------------

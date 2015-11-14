@@ -39,7 +39,7 @@ SELECT players.id, players.name, count(matches.loser) AS lost
 
 --view for standings
 CREATE VIEW standings AS
-    SELECT winners.id, winners.name, winners.wins, winners.wins + losers.lost AS total 
+    SELECT winners.id, winners.name, winners.wins, winners.wins + losers.lost AS total
 	FROM winners, losers
 	WHERE winners.id = losers.id
 	ORDER BY winners.wins DESC;
