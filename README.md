@@ -20,8 +20,8 @@ How to Run the Application
 <p>Running the tournament_test.py will run through test cases to verify the code is implemented correctly and display "Success!  All tests pass!" in the CLI.</p>
 
 <pre>
-    <code>$ psql -f tournament.sql</code>
 	<code>$ git clone https://github.com/mikelewek/FSD_P2_TournamentResults.git</code>
 	<code>$ cd FSD_P2_TournamentResults</code>
+	<code>$ psql -f tournament.sql</code>
 	<code>$ python tournament_test.py</code>
 </pre>
