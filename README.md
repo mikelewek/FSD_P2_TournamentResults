@@ -1,7 +1,7 @@
-##Tournament Results - FSD Project 2
+## Tournament Results - FSD Project 2
 This application stores game data, ranks and pairs players for a Swiss-Pairing scoring tournament.
 
-###The Repo. Contains the Following Files
+### The Repo. Contains the Following Files
 -------------------------------------
  1. tournament.py - Contains functionality to connect to a PostgreSQL 
  	database and ability<br>to get, store, and delete player matches.
@@ -11,7 +11,7 @@ This application stores game data, ranks and pairs players for a Swiss-Pairing s
  5. tournament.sql - Test data for debugging purposes.
  6. README.md
 
-###How to Run the Application
+### How to Run the Application
 -------------------------
 Python 2.7, PostgreSQL, and psql CLI must be installed and configured.
 In the terminal, clone the repo., then navigate to the directory where the files are located.
